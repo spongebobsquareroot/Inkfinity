@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Whiteboard</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="toolbar">
+    <label for="color-picker">Pen Color:</label>
+    <input type="color" id="color-picker">
+
+    <label for="background-picker">Background Color:</label>
+    <input type="color" id="background-picker">
+
+    <label for="thickness-select">Pen Thickness:</label>
+    <select id="thickness-select">
+      <option value="1">Thin</option>
+      <option value="3">Medium</option>
+      <option value="5">Thick</option>
+    </select>
+
+    <button id="eraser-button">Eraser</button>
+
+    <button id="text-button">Text</button>
+    <div id="text-input-container">
+      <input type="text" id="text-input">
+      <button id="text-draw-button">Draw</button>
+    </div>
+
+    <button id="calculator-button">Calculator</button>
+    <div id="calculator-container">
+      <input type="text" id="calculator-input" readonly>
+      <div id="calculator-buttons">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>/</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>*</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>+</button>
+        <button>0</button>
+        <button>.</button>
+        <button>=</button>
+        <button>-</button>
+        <button id="calculator-clear">Clear</button>
+      </div>
+    </div>
+  </div>
+
+  <canvas id="canvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>

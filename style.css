@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .toolbar {
+    margin-bottom: 10px;
+  }
+  
+  #canvas {
+    background-color: white;
+    border: 1px solid black;
+    cursor: crosshair;
+  }
+  
+  #text-input-container {
+    display: none;
+    margin-top: 5px;
+  }
+  
+  #text-draw-button {
+    margin-left: 5px;
+  }
+  
+  #calculator-container {
+    display: none;
+    margin-top: 5px;
+  }
+  
+  #calculator-input {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  #calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
